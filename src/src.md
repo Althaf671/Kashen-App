@@ -1,0 +1,27 @@
+/src/
+    /Kashen.Application
+        /Features
+    /Kashen.Domain
+        /Common
+        /Entities
+        /Enums
+        /Events
+        /Exceptions
+        /Interfaces
+        /ValueObjects
+    /Kashen.Infrastructure
+        /Caching
+        /Persistance
+        /Services
+        /Workers
+    /Kashen.Presentation
+        /Kashen.Api
+            /Controllers
+            /Middlewares
+            /Validators
+        /Kashen.WebApp
+            /Components
+/test/
+     /Kashen.Playground
+     /Kashen.UnitTest
+Kashen.slnx

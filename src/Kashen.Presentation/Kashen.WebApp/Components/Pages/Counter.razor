@@ -1,0 +1,57 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<MudText Typo="Typo.h3" GutterBottom="true">Counter</MudText>
+
+<MudText Typo="Typo.body1" Class="mb-4">Current count: @currentCount</MudText>
+
+<MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="IncrementCount">Click me</MudButton>
+
+@* Cards *@
+<MudCard>
+    <MudCardContent>
+        <MudText>Story of the day</MudText>
+        <MudText Typo="Typo.body2">The quick, brown fox jumps over a lazy dog.</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Learn more</MudButton>
+    </MudCardActions>
+</MudCard>
+
+@* Buttons *@
+<MudButton Variant="Variant.Filled">Default</MudButton>
+<MudButton Variant="Variant.Filled" Color="Color.Primary">Primary</MudButton>
+<MudButton Variant="Variant.Filled" Color="Color.Secondary">Secondary</MudButton>
+<MudButton Variant="Variant.Filled" Disabled="true">Disabled</MudButton>
+
+<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Delete" Color="Color.Error">Delete</MudButton>
+<MudButton Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.Send" Color="Color.Primary">Send</MudButton>
+<MudButton Variant="Variant.Filled" StartIcon="@Icons.Custom.Uncategorized.Radioactive" Color="Color.Warning">Warning</MudButton>
+<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Mic" IconColor="Color.Error">Talk</MudButton>
+<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Save" Color="Color.Info"  Size="Size.Small">Save</MudButton>
+<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Save" IconColor="Color.Secondary" Size="Size.Large">Save</MudButton>
+
+<MudIconButton Icon="@Icons.Material.Filled.Delete" aria-label="delete" />
+<MudIconButton Icon="@Icons.Custom.Brands.Apple" Color="Color.Primary" aria-label="github" />
+<MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Secondary" aria-label="add to favorite" />
+<MudIconButton Icon="@Icons.Material.Filled.Share" Disabled="true" aria-label="share" />
+
+@* Breadcrumbs *@
+<MudBreadcrumbs Items="_items"></MudBreadcrumbs>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private List<BreadcrumbItem> _items =
+    [
+        new("Home", href: "#"),
+        new("Link 1", href: "#"),
+        new("Link 2", href: null, disabled: true)
+    ];
+}

@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Kashen.Application/Kashen.Application.csproj" />
+    <Project Path="src/Kashen.Domain/Kashen.Domain.csproj" />
+    <Project Path="src/Kashen.Infrastructure/Kashen.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Kashen.Presentation/">
+    <Project Path="src/Kashen.Presentation/Kashen.Api/Kashen.Api.csproj" />
+    <Project Path="src/Kashen.Presentation/Kashen.WebApp/Kashen.WebApp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Kashen.Playground/Kashen.Playground.csproj" />
+    <Project Path="tests/Kashen.UnitTest/Kashen.UnitTest.csproj" />
+  </Folder>
+</Solution>
+
+

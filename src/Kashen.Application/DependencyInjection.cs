@@ -1,0 +1,1 @@
+namespace Kashen.src.Kashen.Application;

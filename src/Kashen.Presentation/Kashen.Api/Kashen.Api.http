@@ -1,0 +1,6 @@
+@Kashen.Api_HostAddress = http://localhost:5134
+
+GET {{Kashen.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
