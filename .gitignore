@@ -484,6 +484,9 @@ $RECYCLE.BIN/
 *.swp
 
 # API Secrets
-*.json
+**/*.json
 !appsettings.json
 !appsettings.Development.json
+
+# Counter
+.VSCodeCounter
