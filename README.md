@@ -1,1 +1,4 @@
-# Kashen-App
+# Kashen - Apparel E-Commerce Platform
+Adalah sebuah BMS (Business Management Software) yang merupakan lanjutan dari projek Kashley Essential. Ini adalah projek E-Commerce Platform dibidang Apparel atau Busana yang melibatkan pelbagai Disiplin Sistem Informasi seperti CMS (Content Management System), CRM (Customer Relationship Management), WMS (Warehouse Management System), SRM (Supplier Relationship Management), Lightweight FMS (Lightweight Financial Management System), Hingga BI (business Intelligence).
+
+https://www.notion.so/Solution-Architecture-Document-SAD-Kashen-Solution-2e5fad488857802b9153ea42a851251d?source=copy_link
